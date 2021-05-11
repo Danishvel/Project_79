@@ -42,7 +42,7 @@ var item=document.getElementById("add_item").value;
 menu_list_array.sort();
 htmldata = "<section class='cards'>"
 for (var i=0; i<menu_list_array.length; i++) {
-    htmldata = htmldata + '<div class="card">' + '<img src ="file:///C:/Users/thanigai/Documents/Visual%20Studio%20Code/Project/P79/pizzaImg.png"/> ' + menu_list_array[i] + '</div>'
+    htmldata = htmldata + '<div class="card">' + '<img src ="pizzaImg.png"/> ' + menu_list_array[i] + '</div>'
 }
 htmldata=htmldata+"</section>"
 document.getElementById("display_addedmenu").innerHTML = htmldata;
